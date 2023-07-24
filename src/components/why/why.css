@@ -1,0 +1,257 @@
+.Why {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  text-align: center;
+  gap: 20px;
+  padding-top: 28px;
+}
+
+.Why h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  background-color: gold;
+  padding-top: 5px;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: -20px;
+  width: 100%;
+  height: 40%;
+}
+
+.Choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  gap: 50px;
+  background-color: black;
+  /* border: 3px white; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Choose1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 50vh;
+  width: 27%;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+.Choose1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.Choose1 i {
+  font-size: 60px;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+}
+.Choose1 h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+.Choose1 p {
+  color: gold;
+  font-size: 13px;
+}
+
+.Choose2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 50vh;
+  width: 27%;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+.Choose2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.Choose2 i {
+  font-size: 60px;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+}
+.Choose2 h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+.Choose2 p {
+  color: gold;
+  font-size: 13px;
+}
+
+.Choose3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 50vh;
+  width: 27%;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+.Choose3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.Choose3 i {
+  font-size: 60px;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+}
+.Choose3 h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+.Choose3 p {
+  color: gold;
+  font-size: 13px;
+}
+
+.Choose-dwn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  gap: 50px;
+  background-color: black;
+  border: 3px red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Choose4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 50vh;
+  width: 27%;
+  border: 2px solid gold;
+  border-radius: 7px;
+}
+
+.Choose4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.Choose4 i {
+  font-size: 60px;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+}
+.Choose4 h3 {
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+.Choose4 p {
+  color: gold;
+  font-size: 13px;
+}
+
+.Choose5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 50vh;
+  width: 27%;
+  border: 2px solid gold;
+  border-radius: 7px;
+}
+
+.Choose5:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.Choose5 i {
+  font-size: 60px;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+}
+.Choose5 h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+.Choose5 p {
+  color: gold;
+  font-size: 13px;
+}
+
+.Choose6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 50vh;
+  width: 27%;
+  border: 2px solid gold;
+  border-radius: 7px;
+}
+
+.Choose6:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.Choose6 i {
+  font-size: 60px;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+}
+.Choose6 h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+.Choose6 p {
+  color: gold;
+  font-size: 13px;
+}

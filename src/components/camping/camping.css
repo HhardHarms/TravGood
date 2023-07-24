@@ -1,0 +1,229 @@
+.Camping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 30px;
+  background-color: gold;
+}
+
+.camp1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp1-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp1 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp1 p {
+  color: gold;
+}
+.camp1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.camp2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp2-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp2 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp2 p {
+  color: gold;
+}
+.camp2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.camp3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp3-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp3 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp3 p {
+  color: gold;
+}
+.camp3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.camp4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp4-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp4 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp4 p {
+  color: gold;
+}
+.camp4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.Camping2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 30px;
+  background-color: gold;
+}
+
+.camp5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp5-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp5 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp5 p {
+  color: gold;
+}
+.camp5:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+
+.camp6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp6-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp6 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp6 p {
+  color: gold;
+}
+.camp6:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+
+.camp7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 18%;
+  gap: 20px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+}
+.camp7-icon {
+  font-size: 50px;
+  color: gold;
+}
+.camp7 h3 {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: underline;
+}
+.camp7 p {
+  color: gold;
+}
+.camp7:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}

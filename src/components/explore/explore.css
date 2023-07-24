@@ -1,0 +1,375 @@
+.Explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  text-align: center;
+  gap: 20px;
+  background-color: black;
+}
+.xplore-icon {
+  font-size: 70px;
+  color: gold;
+}
+
+.Explore h2 {
+  text-transform: capitalize;
+  color: white;
+}
+
+.xploLoc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.xploLoc1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xploLoc1-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp1.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xploLoc1-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xploLoc1-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xploLoc1:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xploLoc1-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.xploLoc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xploLoc2-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp2.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xploLoc2-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xploLoc2-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xploLoc2:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xploLoc2-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.xploLoc3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xploLoc3-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp3.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xploLoc3-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xploLoc3-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xploLoc3:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xploLoc3-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.xploLoc4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xploLoc4-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp4.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xploLoc4-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xploLoc4-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xploLoc4:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xploLoc4-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.Explore2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 50vh;
+  text-align: center;
+  gap: 20px;
+  background-color: black;
+}
+
+.xplo-Loc1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc1-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp5.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xplo-Loc1-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xplo-Loc1-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xplo-Loc1:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc1-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.xplo-Loc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc2-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp6.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xplo-Loc2-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xplo-Loc2-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xplo-Loc2:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc2-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.xplo-Loc3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc3-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp7.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xplo-Loc3-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xplo-Loc3-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xplo-Loc3:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc3-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}
+
+.xplo-Loc4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
+  width: 18vw;
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc4-up {
+  height: 30vh;
+  width: 15vw;
+  background-image: url(../../images/camp8.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.xplo-Loc4-up button {
+  background-color: gold;
+  padding: 5px;
+  margin-top: 94%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+}
+.xplo-Loc4-dn h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+.xplo-Loc4:hover {
+  background-color: gold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.xplo-Loc4-dn h3:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: larger;
+}

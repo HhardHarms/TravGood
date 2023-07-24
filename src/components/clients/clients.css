@@ -1,0 +1,278 @@
+.Clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250vh;
+  width: 100%;
+  background-color: gold;
+}
+
+.Clint {
+  height: 30%;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 217, 0, 0.163)
+    ),
+    url(../../images/trav2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.ClintTxt h2 {
+  color: gold;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.ClintTxt h4 {
+  color: white;
+  font-weight: 400;
+}
+
+.Goals {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  height: 50vh;
+  width: 100%;
+  gap: 50px;
+}
+.Mish {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.752);
+  height: 40vh;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  transition: ease-in-out 0.5s;
+}
+.Mish i {
+  font-size: 50px;
+  color: #fff;
+}
+.Mish h3 {
+  text-transform: capitalize;
+  font-size: 28px;
+}
+.Mish p {
+  color: #fff;
+}
+.Mish:hover {
+  cursor: pointer;
+  background-color: black;
+  color: gold;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.Vish {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.752);
+  height: 40vh;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  transition: ease-in-out 0.5s;
+}
+.Vish i {
+  font-size: 50px;
+  color: #fff;
+}
+.Vish h3 {
+  text-transform: capitalize;
+  font-size: 28px;
+}
+.Vish p {
+  color: #fff;
+}
+.Vish:hover {
+  cursor: pointer;
+  background-color: black;
+  color: gold;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.Goal-list {
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.752);
+  height: 70vh;
+  width: 60%;
+  margin-top: 50px;
+  transition: ease-in-out 0.5s;
+}
+.Goal-list:hover {
+  cursor: pointer;
+  background-color: black;
+  color: gold;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+.List-up {
+  margin-bottom: 10px;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.List-up i {
+  font-size: 40px;
+}
+.List-up h3 {
+  font-size: 30px;
+}
+
+.List-dwn {
+  margin-top: 100px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.List-dwn ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.Clients h1 {
+  margin: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Clie-nts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  gap: 40px;
+  background-color: black;
+}
+
+.Client1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  height: 80%;
+  width: 22%;
+  transition: ease-in-out 0.5s;
+}
+.Client1 i {
+  font-size: 70px;
+  color: gold;
+}
+.Client1 h4 {
+  font-weight: 500;
+  color: #fff;
+}
+.Client1 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gold;
+}
+.Client1:hover {
+  cursor: pointer;
+  color: gold;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.Client2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  height: 80%;
+  width: 22%;
+  transition: ease-in-out 0.5s;
+}
+.Client2 i {
+  font-size: 70px;
+  color: gold;
+}
+.Client2 h4 {
+  font-weight: 500;
+  color: #fff;
+}
+.Client2 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gold;
+}
+.Client2:hover {
+  cursor: pointer;
+  color: gold;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.Client3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  height: 80%;
+  width: 22%;
+  transition: ease-in-out 0.5s;
+}
+.Client3 i {
+  font-size: 70px;
+  color: gold;
+}
+.Client3 h4 {
+  font-weight: 500;
+  color: #fff;
+}
+.Client3 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gold;
+}
+.Client3:hover {
+  cursor: pointer;
+  color: gold;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}

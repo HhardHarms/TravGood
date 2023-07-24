@@ -1,0 +1,214 @@
+.Sign {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+}
+
+.Sign-up {
+  border-radius: 10px;
+  height: 120vh;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: black;
+}
+
+.Sign-upTxt {
+  display: flex;
+  flex-direction: column;
+}
+.Sign-upTxt p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: gold;
+}
+.Sign-upTxt h3 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 450;
+  color: gold;
+}
+
+.Sign-up-icons {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  gap: 50px;
+  height: 10%;
+  width: 60%;
+}
+
+.Sign-up-icons1 {
+  border: 2px solid rgba(0, 0, 0, 0.389);
+  border-radius: 10px;
+  color: red;
+  background: white;
+  height: 100%;
+  width: 30%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.5s;
+}
+.Sign-up-icons1:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.Sign-up-icons2 {
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: white;
+  height: 100%;
+  width: 30%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  transition: ease-in-out 0.5s;
+}
+.Sign-up-icons2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.Sign-up-icons3 {
+  border: 2px solid rgba(0, 0, 0, 0.389);
+  border-radius: 10px;
+  background: white;
+  color: black;
+  height: 100%;
+  width: 30%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.5s;
+}
+.Sign-up-icons3:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
+
+.allt {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.allt p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: gold;
+  margin-top: 12px;
+}
+
+.spaan {
+  border-bottom: 2px solid gold;
+  height: 30px;
+  width: 45%;
+}
+
+.Sign-upDwn {
+  border: 2px solid gold;
+  border-radius: 10px;
+  height: 75vh;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Sign-upDwn-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 65%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Sign-upDwn-input1 {
+  border: 2px solid rgba(0, 0, 0, 0.757);
+  border-radius: 7px;
+  height: 50%;
+  width: 100%;
+}
+
+.emaal {
+  height: 100%;
+  width: 100%;
+}
+
+.Sign-upDwn-input2 {
+  border: 2px solid rgba(0, 0, 0, 0.757);
+  border-radius: 7px;
+  height: 50%;
+  width: 100%;
+}
+.Sign-upDwn-input3 {
+  border: 2px solid rgba(0, 0, 0, 0.757);
+  border-radius: 7px;
+  height: 50%;
+  width: 100%;
+}
+.Sign-upDwn-input4 {
+  border: 2px solid rgba(0, 0, 0, 0.757);
+  border-radius: 10px;
+  height: 50%;
+  width: 100%;
+}
+
+.psswwd {
+  height: 100%;
+  width: 100%;
+}
+.Sign-upDwn button {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  height: 50px;
+  width: 35%;
+  margin-top: 10px;
+  margin-left: 110px;
+  border-radius: 7px;
+  color: black;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.5s;
+}
+.Sign-upDwn button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+.Sign-upDwn-bttm {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Sign-upDwn p {
+  text-transform: none;
+  text-decoration: underline;
+  padding: 5px;
+  color: gold;
+}

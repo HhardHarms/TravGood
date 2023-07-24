@@ -1,0 +1,41 @@
+.Hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)),
+    url("../../images/Find-img.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Hero h1 {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: gold;
+  font-size: 50px;
+  margin-top: 18%;
+}
+.Hero p {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Hero button {
+  padding: 5px;
+  text-transform: capitalize;
+  background-color: black;
+  color: #fff;
+  width: 10%;
+  border-radius: 15px;
+  transition: ease-in-out 0.5s;
+}
+.Hero button:hover {
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: ease-in-out 0.5s;
+}

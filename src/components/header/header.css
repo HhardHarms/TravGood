@@ -1,0 +1,134 @@
+header {
+  background-color: black;
+  color: white;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gold;
+  padding: 0 40px;
+}
+
+.hogo {
+  width: 20%;
+}
+
+.hogo h1 {
+  font-size: 40px;
+}
+
+.hogo h1 span {
+  color: gold;
+}
+
+.head-navbar {
+  height: 90%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.head-navbar li {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.head-navbar li:hover,
+.head-navbar li.active {
+  background-color: gold;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
+}
+
+.bttn-header {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 20px;
+  width: 20%;
+}
+
+.bttn-left button {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.bttn-right button {
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+
+.bttn-left button:hover {
+  background-color: #fff;
+  color: gold;
+  box-shadow: none;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
+}
+
+.bttn-right button:hover {
+  background-color: black;
+  color: gold;
+  /* font-size: large; */
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
+}
+@media (max-width: 400px) {
+  .hogo h1 {
+    font-size: 16px;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  .head-navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+  }
+
+  .head-navbar li {
+    display: block;
+    padding: 10px 0;
+    transition: ease-in-out 0.3s;
+  }
+
+  .head-navbar li:hover {
+    background-color: gold;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+  }
+
+  .bttn-header {
+    display: none;
+  }
+}
